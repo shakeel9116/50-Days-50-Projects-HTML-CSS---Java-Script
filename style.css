@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Muli', sans-serif ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image:url("Expanding Cards/cat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    opacity: 500;
+}
+
+.container h1 {
+    font-size: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 100px;
+    color: whitesmoke;
+}
+
+.second h3 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+ul {
+    margin: 10px;
+    padding: 10px;
+}
+ul li{
+    font-size: 20px;
+}
+ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
